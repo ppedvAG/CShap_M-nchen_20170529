@@ -10,37 +10,37 @@ namespace Kontrollstrukturen
             int eingabe = int.Parse(Console.ReadLine());
 
             #region If Else
-            //if(eingabe > 10)
-            //{
-            //    Console.WriteLine("Die Zahl war größer als 10.");
-            //}
-            //else if(eingabe == 10)
-            //{
-            //    Console.WriteLine("Die Zahl war genau 10.");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Die Zahl war kleiner 10.");
-            //}
+            if (eingabe > 10)
+            {
+                Console.WriteLine("Die Zahl war größer als 10.");
+            }
+            else if (eingabe == 10)
+            {
+                Console.WriteLine("Die Zahl war genau 10.");
+            }
+            else
+            {
+                Console.WriteLine("Die Zahl war kleiner 10.");
+            }
 
             #endregion
             #region Switch
-            //switch(eingabe)
-            //{
-            //    case 3:
-            //        Console.WriteLine("Die Eingabe war 3");
-            //        break;
+            switch (eingabe)
+            {
+                case 3:
+                    Console.WriteLine("Die Eingabe war 3");
+                    break;
 
-            //    case 8:
-            //    case 9:
-            //    case 5:
-            //        Console.WriteLine("Die Eingabe war 5, 8 oder 9");
-            //        break;
+                case 8:     // Fallthrough
+                case 9:
+                case 5:
+                    Console.WriteLine("Die Eingabe war 5, 8 oder 9");
+                    break;
 
-            //    default:
-            //        Console.WriteLine("Was anderes.");
-            //        break;
-            //}
+                default:
+                    Console.WriteLine("Was anderes.");
+                    break;
+            }
             #endregion
 
             #region While
@@ -70,19 +70,19 @@ namespace Kontrollstrukturen
 
             #region For
 
-            for(int i = 0; i < 10; i++)
-            {
-                if( i == 5)
-                {
-                    continue;
-                }
-                if(i == 8)
-                {
-                    break;
-                }
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    if( i == 5)
+            //    {
+            //        continue;
+            //    }
+            //    if(i == 8)
+            //    {
+            //        break;
+            //    }
 
-                Console.WriteLine(i);
-            }
+            //    Console.WriteLine(i);
+            //}
 
             #endregion
 

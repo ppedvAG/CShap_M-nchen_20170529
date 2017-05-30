@@ -27,6 +27,7 @@ namespace HalloCSharp
 
             byte einByte = 255;
             short kleinereZahl;
+            int meinezahl;
             long größereZahl;
 
             float f = 7.4f;
