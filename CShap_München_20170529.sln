@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vererbung", "Vererbung\Vere
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerbergenUndÜberschreiben", "VerbergenUndÜberschreiben\VerbergenUndÜberschreiben.csproj", "{5FCA28BE-D676-4D98-88BE-C989EB72E47C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstrakteKlassen", "AbstrakteKlassen\AbstrakteKlassen.csproj", "{07803BFA-39C6-4CD6-BB67-083C142AA344}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{5FCA28BE-D676-4D98-88BE-C989EB72E47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FCA28BE-D676-4D98-88BE-C989EB72E47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FCA28BE-D676-4D98-88BE-C989EB72E47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07803BFA-39C6-4CD6-BB67-083C142AA344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07803BFA-39C6-4CD6-BB67-083C142AA344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07803BFA-39C6-4CD6-BB67-083C142AA344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07803BFA-39C6-4CD6-BB67-083C142AA344}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
