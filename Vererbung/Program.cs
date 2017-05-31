@@ -32,7 +32,31 @@ namespace Vererbung
             Console.WriteLine(pkw.ToString());
             Console.WriteLine(lkw.ToString());
             Console.WriteLine(cabrio.ToString());
+
+
+            Lackieren(f);
+            Lackieren(pkw);
+            Lackieren(lkw);
+            Lackieren(cabrio);
+
+            Fahrzeug cf = new Lkw(2017);
+
+            //Cabrio cab = (Cabrio)cf;
+            Cabrio cab = cf as Cabrio;
+            if(cab != null)
+                Console.WriteLine($"Cast funktioniert?: {cab.Sitzplätze}");
+
+            Console.WriteLine(f.Farbe);
+            Console.WriteLine(pkw.Farbe);
+            Console.WriteLine(lkw.Farbe);
+            Console.WriteLine(cabrio.Farbe);
+
             Console.ReadKey();
+        }
+
+        private static void Lackieren(Fahrzeug fahrzeug)
+        {
+            fahrzeug.Farbe = "Scharz";
         }
     }
 }
