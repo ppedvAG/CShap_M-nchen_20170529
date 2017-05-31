@@ -7,5 +7,8 @@ namespace AbstrakteKlassen
         public string Farbe { get; set; }
 
         public abstract void Zeichnen();
+
+        protected void Renderen()
+        { }
     }
 }

@@ -8,6 +8,7 @@ namespace AbstrakteKlassen
         {
             Kreis k = new Kreis();
             k.Radius = 2.12;
+            
             Linie l = new Linie();
             l.Länge = 10;
 
