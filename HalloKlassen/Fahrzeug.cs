@@ -5,8 +5,8 @@
     /// </summary>
     public class Fahrzeug
     {
-        public Fahrzeug()
-        { }
+        //public Fahrzeug()
+        //{ }
         public Fahrzeug(string farbe)
         {
             Farbe = farbe;
