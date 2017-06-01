@@ -17,6 +17,7 @@
 
         public int Geschwindigkeit { get; set; }
         public int Baujahr { get; set; }
+        public Motor Motor { get; set; }
 
         public void Beschleunigen(int geschwindigkeitsÄnderung)
         {

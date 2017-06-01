@@ -41,8 +41,8 @@ namespace Vererbung
 
             Fahrzeug cf = new Lkw(2017);
 
-            //Cabrio cab = (Cabrio)cf;
-            Cabrio cab = cf as Cabrio;
+            //Cabrio cab = (Cabrio)cf;      // Wenn nicht Cabrio: Schmeist eine Exception
+            Cabrio cab = cf as Cabrio;      // Wenn nicht Cabrio: cab = null
             if(cab != null)
                 Console.WriteLine($"Cast funktioniert?: {cab.Sitzplätze}");
 
@@ -57,6 +57,16 @@ namespace Vererbung
         private static void Lackieren(Fahrzeug fahrzeug)
         {
             fahrzeug.Farbe = "Scharz";
+
+            if (fahrzeug is Pkw)
+            {
+                // Muss PKW oder eine von PKW erbende Klasse sein.
+                fahrzeug.Farbe = "Blau";
+            }
+            if(fahrzeug.GetType() == typeof(Pkw))
+            {
+                // Muss genau PKW sein!!
+            }
         }
     }
 }

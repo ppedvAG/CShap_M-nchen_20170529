@@ -3,34 +3,40 @@
   <Class Name="Vererbung.Fahrzeug">
     <Position X="6.25" Y="0.75" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABQAwAAA=</HashCode>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAABQAwAAA=</HashCode>
       <FileName>Fahrzeug.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Motor" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="Vererbung.Lkw">
-    <Position X="7.75" Y="4.25" Width="1.5" />
+    <Position X="7.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Lkw.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Vererbung.Pkw">
-    <Position X="5" Y="4.25" Width="1.5" />
+    <Position X="5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>Pkw.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Vererbung.Cabrio">
-    <Position X="5" Y="6.75" Width="1.5" />
+    <Position X="5" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cabrio.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="System.Object">
-    <Position X="9.5" Y="0.75" Width="1.5" />
-    <TypeIdentifier />
+  <Class Name="Vererbung.Motor">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Motor.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="10" />
 </ClassDiagram>

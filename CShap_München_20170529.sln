@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatischeMember", "StatischeMember\StatischeMember.csproj", "{267B750F-1A23-44CC-A99D-F1AD1E070EAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofahren", "Autofahren\Autofahren.csproj", "{0D6D0CDE-2FCC-4302-9374-481F5C07D495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{267B750F-1A23-44CC-A99D-F1AD1E070EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{267B750F-1A23-44CC-A99D-F1AD1E070EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{267B750F-1A23-44CC-A99D-F1AD1E070EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6D0CDE-2FCC-4302-9374-481F5C07D495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6D0CDE-2FCC-4302-9374-481F5C07D495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6D0CDE-2FCC-4302-9374-481F5C07D495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6D0CDE-2FCC-4302-9374-481F5C07D495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
